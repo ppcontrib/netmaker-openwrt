@@ -27,7 +27,7 @@ PKG_USE_MIPS16:=0
 
 GO_PKG:=github.com/gravitl/netmaker
 GO_PKG_INSTALL_EXTRA:=extra/file extra/dir
-GO_PKG_EXCLUDES:=excluded
+GO_PKG_EXCLUDES:=github.com/go-gl/glfw/v3.3/glfw
 GO_PKG_LDFLAGS:=-s -w
 
 include $(INCLUDE_DIR)/package.mk
